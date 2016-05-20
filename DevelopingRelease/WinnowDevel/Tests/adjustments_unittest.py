@@ -4,9 +4,7 @@ import sys
 sys.path.append(os.getcwd()[:os.getcwd().index('DevelopingRelease')])
 from DevelopingRelease.WinnowDevel import adjustments
 
-"""
-Test commit
-"""
+
 class AdjustmentsTest(unittest.TestCase):
     """
     Tests method fdr_bh (adjusts p-values using Benjamini-Hochberg FDR method)
